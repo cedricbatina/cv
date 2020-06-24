@@ -1,0 +1,218 @@
+@media screen and (min-width:700px) and (max-width:1280px)
+{
+#container{
+    border: .5px solid #212121;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1.1rem;
+    }
+header
+{
+text-align: center;
+padding: 5px;
+}
+.photo
+{
+        text-align: left;
+        padding: 50px;
+
+    }
+    .title{
+        margin-left: 10rem;
+    }
+    strong{
+        color: #ffeb3b;
+    }
+    span{
+        text-decoration-color: #ffeb3b;
+        text-decoration: none;
+    }
+.section 
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #FAFAFA;
+    margin-left: 3%;
+    margin-right: 2rem;
+
+}
+
+ul{
+    padding-right: 2rem;
+    list-style: none;
+    
+}
+ a {
+    text-decoration: none;
+    }
+ a:hover{
+    background-color: #212121;
+    color: #ffeb3b;
+}
+.propos
+ {
+    flex-grow: 1;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.propos:nth-of-type(3){
+flex-grow: 1;
+}
+
+.loisirs {
+    flex-shrink: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+.loisirs:nth-of-type(4){
+    flex-shrink: 1;
+}
+.guitar 
+{   padding:15px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.running {
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.compass
+{   padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffeb3b;
+    width: 100%;
+}
+.aside > h2
+{
+    background-color: #212121;
+    color: #ffeb3b;
+    padding: 1rem;
+}
+
+#formations{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+#formations > h2 
+{
+    text-align: left;
+}
+
+.form{
+    border-top: 2px solid #ffeb3b;
+    display: flex;
+    flex-direction: column;
+    }
+.openclassrooms{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+.amtv{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.cefam{
+    display: flex;
+    flex-flow: column nowrap;
+}
+#experiences{
+    display: flex;
+    flex-direction: column;
+}
+.pro1{
+    border-top: 2px solid #ffeb3b;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.pro2{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.pro3{
+    display: flex;
+    flex-flow: column nowrap;
+}
+#recommandations{
+    display: flex;
+    flex-direction: column;
+    }
+.mentors{
+        border-top: 2px solid #ffeb3b;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .annee{
+        width: 40%;
+
+    }
+    .ecole{
+        width: 60%;
+    }
+    li{
+        margin-bottom: .5rem;
+    }
+.loisir{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 3rem;
+align-items: center;
+flex-shrink: 1;
+color:#212121;
+    }
+
+    .loisirs:nth-of-type(4) {
+        flex-shrink: 1;
+    }
+    .guitar
+    {
+        border-radius: 40px;
+        border: 2px solid #212121;
+        padding: 20px;
+    }
+    .running
+    {
+        
+        border-radius: 40px;
+        border: 2px solid #212121;
+        padding: 20px;
+    }
+    .compass{
+        
+        border-radius: 40px;
+        border: 2px solid #212121;
+        padding: 20px;
+    }
+    h2 > i
+    {
+     color: #ffeb3b;
+
+    }
+    .aside > h2
+    {
+    text-align: center;
+    }
+p > i
+{
+ font-size: .8rem;
+ color: #ffeb3b;
+}
+
+abbr{
+    text-decoration: none;
+}
+}
