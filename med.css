@@ -118,7 +118,7 @@ flex-grow: 1;
     }
 .openclassrooms{
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: row nowrap;
     }
     
 .amtv{
