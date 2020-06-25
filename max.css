@@ -1,16 +1,18 @@
-@media screen and (min-width:700px) and (max-width:1280px)
-{
+@media screen and ( min-width:1280px){
+
+
+
 #container{
     border: .5px solid #212121;
-    width: 900px;
+    width: 1024px;
     margin: auto;
     display: flex;
-    flex-direction: column-reverse;
-    font-size: 1.1rem;
+    flex-direction: row-reverse;
+    font-size: 1.2rem;
     }
 header
 {
-text-align: center;
+text-align: left;
 padding: 5px;
 }
 .photo
@@ -28,21 +30,20 @@ padding: 5px;
     span{
         text-decoration: 2px solid #ffeb3b underline;
     }
+
 .section 
-{
-    width: 100%;
+   {
+    width: 65%;
     display: flex;
     flex-flow: column nowrap;
     background-color: #FAFAFA;
     margin-left: 3%;
     margin-right: 2rem;
-
-}
+  }
 
 ul{
     padding-right: 2rem;
     list-style: none;
-    
 }
  a {
     text-decoration: none;
@@ -91,7 +92,7 @@ flex-grow: 1;
     display: flex;
     flex-direction: column;
     background-color: #ffeb3b;
-    width: 100%;
+    width: 30%;
 }
 .aside > h2
 {
@@ -117,16 +118,19 @@ flex-grow: 1;
     }
 .openclassrooms{
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: row nowrap;
+        justify-content: space-between;
     }
     
 .amtv{
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
 }
 .cefam{
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
 }
 #experiences{
     display: flex;
@@ -136,14 +140,17 @@ flex-grow: 1;
     border-top: 2px solid #ffeb3b;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
 }
 .pro2{
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
 }
 .pro3{
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
 }
 #recommandations{
     display: flex;
@@ -152,7 +159,9 @@ flex-grow: 1;
 .mentors{
         border-top: 2px solid #ffeb3b;
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
     }
     .annee{
         width: 40%;
