@@ -1,6 +1,6 @@
 @media screen and (max-width:700px){
     #container{
-        border: .5px solid #212121;
+        border: .3px solid #212121;
         width: auto;
         margin: auto;
         display: flex;
@@ -25,7 +25,8 @@
             color: #ffeb3b;
         }
         span{
-            text-decoration: 2px solid #ffeb3b underline;
+            text-decoration-color: #ffeb3b;
+            text-decoration-line: underline;
         }
     .section 
     {
