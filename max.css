@@ -28,8 +28,7 @@ padding: 5px;
         color: #ffeb3b;
     }
     span{
-        text-decoration-color: #ffeb3b;
-        text-decoration-line: underline;
+        border-bottom: 2px solid #ffeb3b;
     }
 
 .section 
